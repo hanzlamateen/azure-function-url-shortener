@@ -1,6 +1,6 @@
 var azure = require('azure-storage');
 
-const CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=echem;AccountKey=TGl6L8fvcLc+d4fB5VmRMyQac5jR/7RFqshtrr3Ozmy8fUm+Ju1ECs6DQDqJaf+bD4908/7E862OMXp7a2tbNA==;EndpointSuffix=core.windows.net";
+const CONNECTION_STRING = "";
 const TABLE_NAME = "shortener";
 
 var tableSvc = azure.createTableService(CONNECTION_STRING);
